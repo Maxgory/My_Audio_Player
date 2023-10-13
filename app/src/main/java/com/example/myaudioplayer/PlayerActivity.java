@@ -236,7 +236,7 @@ public class PlayerActivity extends AppCompatActivity  {
                     seekBar.setProgress(mCurrentPosition);
                     durationPlayedStart.setText(formattedTime(mCurrentPosition));
 
-                    // Set the total duration at the beginning of playback
+                    // Total duration at the beginning of playback
                     int totalDuration = mediaPlayer.getDuration() / 1000;
                     durationPlayedEnd.setText(formattedTime(totalDuration));
                 }
